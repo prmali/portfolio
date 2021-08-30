@@ -24,6 +24,17 @@ const App = (props) => {
 					<Route exact path="/" component={Home} />
 					<Route path="/projects" component={Projects} />
 					<Route path="/experience" component={Experience} />
+					<Route
+						path="/blog"
+						component={() => {
+							window.open(
+								"https://medium.com/@HousingCrisisVictims",
+								"_blank"
+							);
+							window.location.href = "/";
+							return null;
+						}}
+					/>
 					<Route render={() => <Redirect to={{ pathname: "/" }} />} />
 				</Switch>
 				{/*<Footer />*/}

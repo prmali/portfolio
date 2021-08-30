@@ -6,7 +6,14 @@ const ExperienceComponent = (props) => {
 		<div style={{ padding: "0px 50px" }}>
 			{Experience.map(({ company, role, date, description, stack }) => (
 				<div style={{ marginBottom: "10px" }}>
-					<h1 style={{ margin: "0px", color: "white" }}>{company}</h1>
+					<h1
+						style={{
+							margin: "0px",
+							color: "white",
+						}}
+					>
+						{company}
+					</h1>
 					<h3 style={{ margin: 0, color: "#dedede" }}>{role}</h3>
 					<p style={{ margin: 0, color: "#a6a6a6" }}>
 						{date[0]} - {date[1]}

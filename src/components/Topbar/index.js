@@ -43,7 +43,7 @@ const Item = styled.div`
 	}`}
 `;
 
-const paths = ["Home", "Experience", "Projects", "Workshop"];
+const paths = ["Home", "Experience", "Projects", "Blog"];
 
 const Topbar = (props) => {
 	const [active, setActive] = useState(0);

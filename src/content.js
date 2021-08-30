@@ -50,7 +50,11 @@ const Experience = [
 			"Created a data-source agnostic frontend to function despite the noise across data sources.",
 		],
 		stack: [
-			<i class="devicon-nodejs-plain colored"></i>,
+			<i class="devicon-python-plain colored"></i>,
+			<i class="devicon-javascript-plain colored"></i>,
+			<i class="devicon-graphql-plain colored"></i>,
+			<i class="devicon-react-original colored"></i>,
+			<i class="devicon-redux-original colored"></i>,
 			<i class="devicon-googlecloud-plain colored"></i>,
 			<img
 				src={"https://www.dremio.com/favicons/favicon.ico"}
@@ -58,9 +62,6 @@ const Experience = [
 				style={{ width: 50, height: 50 }}
 			/>,
 			<i class="devicon-django-plain-wordmark colored"></i>,
-			<i class="devicon-graphql-plain colored"></i>,
-			<i class="devicon-react-original colored"></i>,
-			<i class="devicon-redux-original colored"></i>,
 			<i class="devicon-docker-plain colored"></i>,
 		],
 	},
@@ -73,6 +74,8 @@ const Experience = [
 		],
 		stack: [
 			<i class="devicon-nodejs-plain colored"></i>,
+			<i class="devicon-react-original colored"></i>,
+			<i class="devicon-redux-original colored"></i>,
 			<img
 				src={solidity}
 				alt={"solidity"}
@@ -87,8 +90,6 @@ const Experience = [
 			<i class="devicon-mongodb-plain colored"></i>,
 			<i class="devicon-amazonwebservices-original colored"></i>,
 			<i class="devicon-heroku-plain colored"></i>,
-			<i class="devicon-react-original colored"></i>,
-			<i class="devicon-redux-original colored"></i>,
 			<i class="devicon-docker-plain colored"></i>,
 		],
 	},
@@ -117,6 +118,7 @@ const Experience = [
 		stack: [
 			<i class="devicon-javascript-plain colored"></i>,
 			<i class="devicon-nodejs-plain colored"></i>,
+			<i class="devicon-react-original colored"></i>,
 			<img
 				src={solidity}
 				alt={"solidity"}
@@ -129,7 +131,6 @@ const Experience = [
 			/>,
 			<i class="devicon-mongodb-plain colored"></i>,
 			<i class="devicon-heroku-plain colored"></i>,
-			<i class="devicon-react-original colored"></i>,
 		],
 	},
 	{
@@ -146,6 +147,49 @@ const Experience = [
 	},
 ];
 
-const Projects = [];
+const Projects = [
+	{
+		company: "gweiFace",
+		description: [
+			"Automated randomization of 9,999 unique characters; deployed smart contracts to Ethereum Blockchain to sell as NFTs.",
+			"Utilized Python, Nodejs, Reactjs, and Solidity. Data stored on GCP and fullstack hosted on Heroku",
+		],
+		stack: [
+			<i class="devicon-python-plain colored"></i>,
+			<i class="devicon-nodejs-plain colored"></i>,
+			<img
+				src={solidity}
+				alt={"solidity"}
+				style={{ width: 50, height: 50 }}
+			/>,
+			<img
+				src={web3}
+				alt={"web3.js"}
+				style={{ width: 50, height: 50 }}
+			/>,
+			<i class="devicon-react-original colored"></i>,
+			<i class="devicon-heroku-plain colored"></i>,
+		],
+	},
+	{
+		company: "Liveplay",
+		description: [
+			"Using Spotify API, Youtube audio ripper, and websockets to help serve live audio sharing. Built using Nodejs, Mongodb, Reactjs",
+		],
+		stack: [
+			<i class="devicon-nodejs-plain colored"></i>,
+			<i class="devicon-mongodb-plain colored"></i>,
+			<i class="devicon-react-original colored"></i>,
+			<i class="devicon-heroku-plain colored"></i>,
+		],
+	},
+	{
+		company: "Markeeter",
+		description: [
+			"Python app scraping census.gov and using Google Places API to find prime locations to advertise in",
+		],
+		stack: [<i class="devicon-python-plain colored"></i>],
+	},
+];
 
 export { Socials, Experience, Projects };

@@ -43,7 +43,12 @@ const SocialButton = (props) => {
 const Home = (props) => {
 	return (
 		<div style={{ textAlign: "center" }}>
-			<h1 style={{ color: "white", margin: "8% 0px 0px" }}>
+			<h1
+				style={{
+					color: "white",
+					margin: "8% 0px 0px",
+				}}
+			>
 				Prathik Malireddy
 			</h1>
 			<p
