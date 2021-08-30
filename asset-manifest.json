@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c2d4563e.chunk.css",
-    "main.js": "/static/js/main.f47c9861.chunk.js",
-    "main.js.map": "/static/js/main.f47c9861.chunk.js.map",
+    "main.js": "/static/js/main.67f35671.chunk.js",
+    "main.js.map": "/static/js/main.67f35671.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
     "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
     "static/js/2.16ab168f.chunk.js": "/static/js/2.16ab168f.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/index.html",
     "static/css/main.c2d4563e.chunk.css.map": "/static/css/main.c2d4563e.chunk.css.map",
     "static/js/2.16ab168f.chunk.js.LICENSE.txt": "/static/js/2.16ab168f.chunk.js.LICENSE.txt",
-    "static/media/prathik_malireddy_resume.95eb2c1a.pdf": "/static/media/prathik_malireddy_resume.95eb2c1a.pdf",
+    "static/media/prathik_malireddy_resume.a5219ea4.pdf": "/static/media/prathik_malireddy_resume.a5219ea4.pdf",
     "static/media/rust.c78dc080.svg": "/static/media/rust.c78dc080.svg",
     "static/media/sol.5cd6b6be.png": "/static/media/sol.5cd6b6be.png",
     "static/media/web3.b14807f2.png": "/static/media/web3.b14807f2.png"
@@ -19,6 +19,6 @@
     "static/js/runtime-main.5ebc510a.js",
     "static/js/2.16ab168f.chunk.js",
     "static/css/main.c2d4563e.chunk.css",
-    "static/js/main.f47c9861.chunk.js"
+    "static/js/main.67f35671.chunk.js"
   ]
 }
